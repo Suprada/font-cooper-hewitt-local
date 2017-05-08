@@ -1,0 +1,25 @@
+{
+  "name": "font-cooper-hewitt-local",
+  "authors": [
+    "Suprada Urval <suprada@gmail.com>"
+  ],
+  "description": "An HTML Import for Cooper Hewitt font, with local font files",
+  "main": "cooper-hewitt.html",
+  "keywords": [
+    "font",
+    "cooper",
+    "hewitt",
+    "local",
+    "font",
+    "typography"
+  ],
+  "license": "MIT",
+  "homepage": "www.suprada.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

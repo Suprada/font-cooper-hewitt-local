@@ -1,0 +1,245 @@
+/* Creating a webfont css to be stored on the server */
+/* Font Name: Cooper Hewitt; */
+/* Open Source,  https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/*/
+/*
+	Common weight name mapping
+The 100 to 900 values roughly correspond to the following common weight names:
+100 - Thin (Hairline)
+200 - Extra Light (Ultra Light) (not in Cooper Hewitt)
+300 - Light
+400 - Normal (called Book in Cooper Hewitt)
+500 - Medium
+600 - Semi Bold (Demi Bold)
+700 - Bold
+800 - Extra Bold (Ultra Bold)
+900 - Black (Heavy)
+ */
+<style>
+/************************* Thin/Hairline 100  ****************************/
+/* CooperHewitt-Thin-100 */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/CooperHewitt-Thin.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Hairline'), local('CooperHewitt-Hairline'), local('CooperHewitt Thin'), local('CooperHewitt-Thin'),
+			 url('fonts/CooperHewitt-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Thin.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Thin.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Thin-100italic */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 100;
+	src: url('fonts/CooperHewitt-ThinItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Hairline Italic'), local('CooperHewitt-HairlineItalic'),
+			 local('CooperHewitt Thin Italic'), local('CooperHewitt-ThinItalic'),
+			 url('fonts/CooperHewitt-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-ThinItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-ThinItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-ThinItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+/* 200 to 300 */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/CooperHewitt-Light.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Light'), local('CooperHewitt-Light'),
+			 url('fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Light.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Light.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Light-300italic */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 200;
+	src: url('fonts/CooperHewitt-LightItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Light Italic'), local('CooperHewitt-LightItalic'),
+			 url('fonts/CooperHewitt-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-LightItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-LightItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+
+
+/************************* Light 300  ****************************/
+
+/* CooperHewitt-Light-300 */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/CooperHewitt-Light.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Light'), local('CooperHewitt-Light'),
+			 url('fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Light.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Light.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Light-300italic */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 300;
+	src: url('fonts/CooperHewitt-LightItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Light Italic'), local('CooperHewitt-LightItalic'),
+			 url('fonts/CooperHewitt-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-LightItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-LightItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/************************* Book/Regular/Normal 400  ****************************/
+
+/* CooperHewitt-Book-400 Regular, Normal*/
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/CooperHewitt-Book.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Book'), local('CooperHewitt-Book'),
+			 local('CooperHewitt Normal'), local('CooperHewitt-Normal'),
+			 local('CooperHewitt Regular'), local('CooperHewitt-Regular'),
+			 url('fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Book.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Book.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Book-400italic regular, normal */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 400;
+	src: url('fonts/CooperHewitt-BookItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Book Italic'), local('CooperHewitt-BookItalic'),
+			 local('CooperHewitt Normal Italic'), local('CooperHewitt-NormalItalic'),
+			 local('CooperHewitt Regular Italic'), local('CooperHewitt-RegularItalic'),
+			 url('fonts/CooperHewitt-BookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-BookItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-BookItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-BookItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/************************* Medium 500  ****************************/
+/* CooperHewitt-Medium 500*/
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Medium'), local('CooperHewitt-Medium'),
+			 url('fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Medium.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Medium.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Book-400italic regular, normal */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 500;
+	src: url('fonts/CooperHewitt-MediumItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Medium Italic'), local('CooperHewitt-MediumItalic'),
+			 url('fonts/CooperHewitt-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-MediumItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-MediumItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-MediumItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/************************* 600 - Semi Bold (Demi Bold) ****************************/
+/* CooperHewitt-Semibold-600 demibold*/
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/CooperHewitt-Semibold.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Semibold'), local('CooperHewitt-Semibold'),
+			 local('CooperHewitt Demibold'), local('CooperHewitt-Demibold'),
+			 url('fonts/CooperHewitt-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Semibold.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Semibold.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Semibold-600italic demibold */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 600;
+	src: url('fonts/CooperHewitt-SemiboldItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Semibold Italic'), local('CooperHewitt-SemiboldItalic'),
+			 local('CooperHewitt Demibold Italic'), local('CooperHewitt-DemiboldItalic'),
+			 url('fonts/CooperHewitt-SemiboldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-SemiboldItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-SemiboldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-SemiboldItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/************************* 700 - Bold  ****************************/
+/* CooperHewitt-bold-700 */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/CooperHewitt-Bold.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Bold'), local('CooperHewitt-Bold'),
+			 url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Bold.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Bold.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-bold-700italic */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 700;
+	src: url('fonts/CooperHewitt-BoldItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Bold Italic'), local('CooperHewitt-BoldItalic'),
+			 url('fonts/CooperHewitt-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-BoldItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-BoldItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/************************* 900 - Black (Heavy)  ****************************/
+/* CooperHewitt-Heavy-900 Black*/
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/CooperHewitt-Heavy.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Heavy'), local('CooperHewitt-Heavy'),
+			 local('CooperHewitt Black'), local('CooperHewitt-Black'),
+			 url('fonts/CooperHewitt-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-Heavy.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-Heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-Heavy.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+
+/* CooperHewitt-Heavy-900italic
+black */
+@font-face {
+	font-family: 'Cooper Hewitt';
+	font-style: italic;
+	font-weight: 900;
+	src: url('fonts/CooperHewitt-HeavyItalic.eot'); /* IE9 Compat Modes */
+	src: local('CooperHewitt Heavy Italic'), local('CooperHewitt-HeavyItalic'),
+			 local('CooperHewitt Black Italic'), local('CooperHewitt-BlackItalic'),
+			 url('fonts/CooperHewitt-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/CooperHewitt-HeavyItalic.woff') format('woff'), /* Modern Browsers */
+			 url('fonts/CooperHewitt-HeavyItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/CooperHewitt-HeavyItalic.svg#CooperHewitt') format('svg'); /* Legacy iOS  */
+}
+</style>
